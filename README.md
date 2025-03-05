@@ -92,15 +92,13 @@ Clear contribution guidelines make it easier for others to get involved.
 iv) Improves Project Maintainability:
 It serves as a reference for future maintainers.
 
-## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
- Feature             Public Repository                            Private Repository
-i) Visibility:  	Anyone can view and access.	               Only invited users can access.
-ii) Collaboration:Open to everyone; anyone can fork and      Limited to selected collaborators.
-contribute.	
-iii) Security:	  Code is exposed to the public.	           Code remains confidential.
-iv) Best for:	    Open-source projects, portfolios,          Proprietary projects, sensitive data, 
-                  educational resources.	                   internal collaboration.             v) Forking:	      Anyone can fork and modify.	                Only authorized users can create 
-                                                              scopies.
+## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative project                       
+i)  Public Repository can be viewed and accessed by anyone while in Private Repository only invited users can access.
+ii) Public Repository is open to everyone; anyone can fork and contribute while Private Repository is Limited to selected collaborators..	
+iii) In Public Repository, Code is exposed to the public while in  Private Repository, Code remains confidential.
+iv) Public Repository is best for Open-source projects, portfolios & educational resources while  Private Repository is best for Proprietary projects, sensitive data & internal collaboration
+ v) Anyone can fork and modify a Public Repository while Only authorized users can create copies in Private Repository.
+                                                              
 Advantages & Disadvantage                                      
 Public Repository
  Advantages:
@@ -245,17 +243,12 @@ git push origin --delete feature/your-feature
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 Forking a repository on GitHub creates an independent copy of another user’s repository under your GitHub account. This allows you to freely modify the project without affecting the original repository.
 
-Forking vs. Cloning
-Feature	      Forking	                                   Cloning
-Purpose:	Creates a copy of a repository            	Creates a local copy on your computer 
-          on GitHub for independent modifications.    for development.
-Location:	Exists on GitHub under your account.	      Exists only on your local machine.
-Affects 	No, changes stay in your fork unless 	      No, unless changes are pushed to a shared
-Original   a pull request is made.                      remote repository.
-Repo?   :
-Use Case:	Contributing to open-source projects 	      Working on a local copy for personal 
-           or experimenting with code.                 development or private projects.
- When is Forking Useful?
+Forking vs. Cloning                                   
+Forking	creates a copy of a repository on GitHub for independent modifications while Cloning creates a local copy on your computer for development.
+Forking	exists on GitHub under your account while Cloning exists only on your local machine.
+Forking	does not affect original repo i.e changes stay in your fork unless a pull request is made while i cloning, changes are pushed to a shared remote repository.
+Forking is useful in contributing to open-source projects or experimenting with code while Cloning is useful when working on a local copy for personal development or private projects. 
+      When is Forking Useful?
 i) Contributing to Open-Source Projects – Developers fork repositories, make changes, and submit pull requests to propose modifications.
 ii) Experimenting Without Risk – Forking allows testing new features without altering the original project.
 iii) Personalizing an Existing Project – Developers can customize open-source software for personal or organizational use.
